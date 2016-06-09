@@ -1,0 +1,19 @@
+appmain:
+    resource: "@appmainBundle/Resources/config/routing.yml"
+    prefix:   /
+
+coreasset:
+    resource: "@coreassetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+apptool:
+    resource: "@apptoolBundle/Resources/config/routing.yml"
+    prefix:   /
+
+coreuser:
+    resource: "@coreuserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+coretool:
+    resource: "@coretoolBundle/Resources/config/routing.yml"
+    prefix:   /

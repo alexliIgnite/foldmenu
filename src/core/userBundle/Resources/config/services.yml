@@ -1,0 +1,4 @@
+services:
+    coreuser.service:
+        class: core\userBundle\Service\userService
+        arguments: [@doctrine.orm.etTracking_entity_manager,@doctrine.orm.default_entity_manager]

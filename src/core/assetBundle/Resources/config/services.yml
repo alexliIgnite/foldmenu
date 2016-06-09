@@ -1,0 +1,4 @@
+services:
+    coreIngredients.service:
+        class: core\assetBundle\Service\ingredientsService
+        arguments: [@doctrine.orm.default_entity_manager]

@@ -1,0 +1,3 @@
+crawlSite:
+    path:     /crawlSite
+    defaults: { _controller: apptoolBundle:content:crawlSite }

@@ -1,0 +1,4 @@
+services:
+    coretool.service:
+        class: core\toolBundle\Service\toolService
+        arguments: [@doctrine.orm.etTracking_entity_manager]

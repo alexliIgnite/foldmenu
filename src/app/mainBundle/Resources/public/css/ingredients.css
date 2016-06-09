@@ -1,0 +1,39 @@
+#addIngredients{
+	padding:10px 20px;
+}
+#ingredients
+{
+	width:110px;
+	height:100px;
+	overflow:hidden;
+}
+.igd-off{
+	padding-left:10px;
+}
+.addBox{
+	width:280px;
+}
+.ingredientThumbnail{
+	border:1px dashed #BCE8F1;
+	width: 260px;
+	height: 200px;
+	margin:5px;
+}
+.dz-message{
+	padding: 10px;
+	text-align:center;
+}
+.dz-image{
+	text-align:center;
+}
+.dz-error-message{
+	display:none;
+}
+.submitButton{
+	padding-top:8px;
+}
+.inputTitle{
+	margin:5px 2px 5px;
+	font-size:13px;
+	color:gray;
+}

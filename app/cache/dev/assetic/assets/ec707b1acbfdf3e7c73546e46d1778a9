@@ -1,0 +1,32 @@
+
+	$('igd-on').on('click', function(){
+		$('#logo').animate({
+			height: '0px',
+			width: '0px'
+		});
+		$('.logoSmall').css("display", "inline");
+		$("#ingredients").animate({
+			height: '800px',
+			width: '100%'
+		});
+		$(".igd-on").animate({
+			height: '40px'
+		});
+		$('.igd-on').removeClass("igd-on").addClass('igd-off');
+	});
+	
+	$('logoSmall').on('click', function(){
+		$('.logoSmall').css("display", "none");
+		$("#ingredients").animate({
+			height: '100px',
+			width: '110px'
+		});
+		$(".igd-off").animate({
+			height: '78px'
+		});
+		$('.igd-off').removeClass("igd-off").addClass('igd-on');
+		$('#logo').animate({
+			width: '110px',
+			height: '100px'
+		});
+	});

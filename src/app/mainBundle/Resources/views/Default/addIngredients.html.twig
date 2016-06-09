@@ -1,0 +1,38 @@
+<script src="{{ asset('js/dropzone.js') }}"></script>
+<div id="addIngredients">
+	<div class="row">
+  		<div class="addBox">
+			<div class="thumbnail">
+				<div class="typeahead-container">
+				 	<div class="typeahead-field">
+						<span class="typeahead-query">
+		                	<input id="addIngredientsName" name="addIngredientsName" type="search" placeholder="Name of ingredients" autocomplete="off">
+		            	</span>
+	            	</div>
+	            </div>
+      			<form action="/upload" class="ingredientThumbnail dropzone needsclick dz-clickable" id="addThumbnail">
+  					<div class="dz-message needsclick">
+    					Drop pictures here to add ingredients thumbnail.<br>
+  					</div>
+				</form>
+				<div class="typeahead-container">
+				 	<div class="typeahead-field">
+						<span class="typeahead-query">
+		                	<input id="addOriginPlace" name="addOriginPlace" type="search" placeholder="Origin place of ingredients" autocomplete="off">
+		            	</span>
+	            	</div>
+	            </div>
+	            <div class="inputTitle">Add tag to categorize ingredients:</div>
+	            <div class="typeahead-container">
+							<input type="text" name="ingredientsTags" value="" id="ingredientsTags">
+				</div>
+	            <div class="submitButton">
+        			<a class="btn btn-default" role="button">Add ingredients</a>
+       			</div>
+       		</div>
+      	</div>
+    </div>
+</div>
+{% javascripts '@appmainBundle/Resources/public/js/ingredients.js' %}
+    <script src="{{ asset_url }}"></script>
+{% endjavascripts %}

@@ -1,0 +1,15 @@
+#logo
+{
+	margin-left : 0px;
+	width: 105px;
+	height: 100px;
+	float:left;
+	overflow:hidden;
+	margin-bottom:-2px;
+	
+}
+.logoSmall
+{
+	display:none;
+	height:45px;
+}

@@ -1,0 +1,3 @@
+coreuser_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: coreuserBundle:Default:index }
